@@ -1,5 +1,11 @@
-#class for edges
+#Dijkstra 
+
+# A path is called a negative cycle if: There is a cycle (a cycle is a path of edges or vertices
+#  where in vertex is reachabel form itself) so dijkstra's Algorithm
+
+
 import heapq
+#class for edges
 class Edge:
     def __init__(self,weight,start_vertex,target_vertex):
         self.weight = weight
